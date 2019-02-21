@@ -11,12 +11,12 @@ class Main  extends Component {
   state = { loggedIn: null };
   componentWillMount() {
       Firebase.initializeApp({
-        apiKey: 'AIzaSyCRBt-b1_h9x5g2D84dsSUx6mBhW7jHA1g',
+        apiKey: 'AIzaSyCRBt-b1_h9x5g2D84dsdESGmBhW7jHA1g',
         authDomain: 'kimlikdogrulamaapp-f70c9.firebaseapp.com',
-        databaseURL: 'https://kimlikdogrulamaapp-f70c9.firebaseio.com',
-        projectId: 'kimlikdogrulamaapp-f70c9',
-        storageBucket: 'kimlikdogrulamaapp-f70c9.appspot.com',
-        messagingSenderId: '627800264855'
+        databaseURL: 'https://kimlikdogrulamaapp-f80c9.firebaseio.com',
+        projectId: 'kimlikdogrulamaapp-f80c9',
+        storageBucket: 'kimlikdogrulamaapp-f80c9.appspot.com',
+        messagingSenderId: '627500764855'
       });
       Firebase.auth().onAuthStateChanged((user) => {
          if(user){
